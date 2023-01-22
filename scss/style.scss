@@ -57,3 +57,19 @@ flex-grow: 0;
    }
 
 }
+
+.category{
+    margin-top: 267px;
+    .category-heading{
+        font-family: 'Playfair Display';
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 85px;
+            color: #07484A;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            text-align: center;
+            margin-bottom: 100px;
+    }
+}
