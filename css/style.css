@@ -23,6 +23,10 @@ body {
   align-items: center;
   padding: 26px 150px;
 }
+.landing_page header .icons {
+  display: flex;
+  gap: 20px;
+}
 .landing_page header ul {
   list-style-type: none;
   display: flex;
