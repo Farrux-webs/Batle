@@ -133,7 +133,7 @@ body {
     position: relative;
     font-weight: 500;
     transition: 0.5s ease;
-    &:hover:after {
+    &:hover:after{
       content: "";
       position: absolute;
       width: 100%;
@@ -366,7 +366,7 @@ flex-direction: row;
 align-items: center;
 padding: 0px;
 gap: 100px;
-
+overflow-y: hidden;
 width: 1619px;
 height: 766px;
 margin: 150px auto;
@@ -430,6 +430,7 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 gap: 32px;
+overflow-y: hidden;
 
 .text3{
   display: flex;
@@ -1005,7 +1006,8 @@ height: 661px;
 
         img {
             filter: invert(6);
-        }
+            -webkit-filter: invert(6);
+}
     }
 }
 
@@ -1636,5 +1638,18 @@ height: 661px;
             }
         }
     }
+
+   
 // >>>>>>> 866c97b07571d42bbc7de966cd1b2e4edc5e1d16
+}
+
+
+.easyy{
+  height: 600px;
+  width: 1920px;
+
+  
+  img{
+position: absolute;
+  }
 }
