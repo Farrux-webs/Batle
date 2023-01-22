@@ -26,5 +26,16 @@ body {
 .landing_page header ul {
   list-style-type: none;
   display: flex;
-  gap: 2px;
+  gap: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 132.9%;
+  /* identical to box height, or 27px */
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }/*# sourceMappingURL=style.css.map */
