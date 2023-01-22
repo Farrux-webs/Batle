@@ -280,7 +280,7 @@ body {
 }
 .category .category__contents .category__Contents__left .category__Contents__left__card .category__left__card__inline {
   background-color: rgba(0, 0, 0, 0.301);
-  padding-bottom: 7%;
+  padding-bottom: 0%;
   padding-top: 3%;
   border-radius: 8px;
   position: absolute;
@@ -305,6 +305,32 @@ body {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 10px;
+}
+.category .category__contents .category__Contents__left .category__Contents__left__card .category__left__card__inline .cards_explore {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  margin: auto;
+  width: 150px;
+  height: 53px;
+  background: #E0EFF6;
+  border-radius: 6px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #07484A;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .modal-window {
@@ -1031,7 +1057,17 @@ body {
   margin: auto;
 }
 .creation .creation__contents .creation__right .creation__card:hover .rooms__explore {
-  display: block;
+  background: #FFFFFF;
+  border-radius: 6px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 95.6%;
+  color: #000000;
+  margin: auto;
+  padding: 15px;
+  text-align: center;
 }
 .creation .creation__contents .creation__right .creation__card:nth-child(1) {
   background-image: url("../images/creation2.png");
@@ -1052,6 +1088,7 @@ body {
 .benefits-section {
   padding: 100px 0 110px;
   background: #E0EFF6;
+  margin: 100px auto;
 }
 
 .benefits {
@@ -1100,6 +1137,7 @@ body {
 .test-section {
   padding: 100px 0 200px;
   background: #E5E5E5;
+  margin: 200px auto;
 }
 
 .test {
@@ -1393,7 +1431,7 @@ body {
   }
 }
 .footer {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 .footer .footer-contents {
   display: flex;
