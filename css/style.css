@@ -496,9 +496,8 @@ body {
   cursor: pointer;
 }
 .modal-window .icon1 {
-  position: relative;
-  bottom: 90px;
-  left: 20px;
+  position: absolute;
+  left: 3%;
 }
 
 .special {

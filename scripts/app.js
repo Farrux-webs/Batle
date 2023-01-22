@@ -65,5 +65,12 @@ $(".scrolTop").addEventListener("click", () => {
   topFunction();
 });
 
+$("#closemodal").addEventListener("click", () => {
+  $(".modal-window").style.display = "none";
+});
+$(".login").addEventListener("click", () => {
+  $(".modal-window").style.display = "block";
+});
+
 
 
