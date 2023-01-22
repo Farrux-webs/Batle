@@ -1,3 +1,22 @@
+.container {
+  max-width: 1620px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../Fonts/PlayfairDisplay-Black.woff2");
+  src: url("../Fonts/PlayfairDisplay-BlackItalic.woff2");
+  src: url("../Fonts/PlayfairDisplay-Bold.woff2");
+  src: url("../Fonts/PlayfairDisplay-ExtraBold.woff2");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../Fonts/Roboto-Black.woff2");
+  src: url("../Fonts/Roboto-Light.woff2");
+  src: url("../Fonts/Roboto-Bold.woff2");
+}
 * {
   margin: 0;
   padding: 0;
