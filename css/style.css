@@ -48,6 +48,13 @@ body {
   align-items: flex-end;
   gap: 58px;
 }
+.landing_page header .icons .login {
+  display: flex;
+  align-items: center;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
 .landing_page header ul {
   list-style-type: none;
   display: flex;
@@ -63,4 +70,271 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+.landing_page header ul li {
+  cursor: pointer;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+.landing_page header .width {
+  width: 668px;
+  height: 392.06px;
+  position: absolute;
+  left: 150px;
+}
+.landing_page .texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 54px;
+  position: absolute;
+  width: 668px;
+  height: 392.06px;
+  left: 150px;
+  top: 245px;
+}
+.landing_page .texts h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+  color: #07484A;
+}
+.landing_page .texts p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #07484A;
+}
+.landing_page .texts button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 4px;
+  border: none;
+  width: 230px;
+  height: 80px;
+  background: #70908B;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+  color: #FDFBF8;
+}
+.landing_page .active {
+  position: relative;
+  font-weight: 500;
+  transition: 0.5s ease;
+}
+.landing_page .active:hover:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: white;
+  bottom: -16px;
+  border-radius: 2px;
+  left: 0px;
+}
+
+.category {
+  margin-top: 267px;
+}
+.category .category-heading {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+  color: #07484A;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.modal-window {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 5;
+  display: none;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  z-index: 34;
+}
+.modal-window .modal-card {
+  background-color: white;
+  box-shadow: 0px 0px 100px rgb(255, 255, 255);
+  border-radius: 20px;
+  width: 50%;
+  padding: 40px 32px;
+  top: 20%;
+  left: 25%;
+  position: relative;
+}
+.modal-window .modal-card .modal-heading {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  padding-bottom: 10px;
+  color: var(--black);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 10px;
+}
+.modal-window .modal-card .modal-desc {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--descs);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-bottom: 32px;
+}
+.modal-window .modal-card .modal-form {
+  position: relative;
+}
+.modal-window .modal-card .modal-form #hidePassword {
+  position: absolute;
+  bottom: 23%;
+  right: 5%;
+  cursor: pointer;
+}
+.modal-window .modal-card .modal-form #ShowPassword {
+  position: absolute;
+  bottom: 20%;
+  right: 5%;
+  cursor: pointer;
+}
+.modal-window .modal-card .modal-form img {
+  filter: var(--svg-color);
+}
+.modal-window .modal-card .modal-form .shownow {
+  display: block;
+}
+.modal-window .modal-card .modal-form .hidenow {
+  display: none;
+}
+.modal-window .modal-card .modal-form .modal-inputs {
+  position: relative;
+  width: 886px;
+  height: 115px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  border: none;
+  font-size: 24px;
+  padding-left: 60px;
+}
+.modal-window .modal-card .modal-form .modal-inputs::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: black;
+  position: relative;
+  left: 20px;
+}
+.modal-window .modal-card .modal-form .modal-inputs:focus {
+  outline: none;
+  border: none;
+  outline: 3px solid #299764;
+}
+.modal-window .modal-card .modal-form .modal-inputs:nth-child(1) {
+  margin-bottom: 16px;
+}
+.modal-window .modal-card .modal-form .modal-inputs:nth-child(2) {
+  margin-bottom: 8px;
+}
+.modal-window .modal-card .login-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.modal-window .modal-card .login-info .password-info {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FF3B30;
+}
+.modal-window .modal-card .login-info .resetPassword {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: var(--descs);
+}
+.modal-window .modal-card .createNew {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--black);
+  margin-bottom: 32px;
+}
+.modal-window .modal-card .login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 43px 359px;
+  gap: 10px;
+  color: white;
+  width: 885px;
+  height: 115px;
+  border: none;
+  font-weight: 800;
+  background: #70908B;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.modal-window .modal-card .login:hover {
+  background-color: white;
+  color: #186b44;
+  border: 3px solid #186b44;
+}
+.modal-window .modal-card #closemodal {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  gap: 5px;
+  background: var(--border);
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  top: 5%;
+  right: 5%;
+  cursor: pointer;
+}
+.modal-window .icon1 {
+  position: relative;
+  bottom: 90px;
+  left: 20px;
 }/*# sourceMappingURL=style.css.map */
