@@ -1,1 +1,41 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.landing_page {
+  width: 1920px;
+  height: 1080px;
+  margin: 0 auto;
+  background: url(../images/landing_back.svg);
+  border-bottom-left-radius: 62px;
+  position: relative;
+  border: bottom right radius 62px;
+}
+.landing_page header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 150px;
+}
+.landing_page header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 132.9%;
+  /* identical to box height, or 27px */
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}/*# sourceMappingURL=style.css.map */
