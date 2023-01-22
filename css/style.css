@@ -15,14 +15,16 @@ body {
   background: url(../images/landing_back.svg);
   border-bottom-left-radius: 62px;
   position: relative;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
   border: bottom right radius 62px;
 }
 .landing_page header {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 26px 150px;
-  gap: 343px;
+}
+.landing_page header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2px;
 }/*# sourceMappingURL=style.css.map */
