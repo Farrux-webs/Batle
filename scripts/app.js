@@ -43,6 +43,30 @@ function resetInterval() {
 
 
 
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    $(".scrolTop").style.display = "block";
+  } else {
+    $(".scrolTop").style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+$(".scrolTop").addEventListener("click", () => {
+  topFunction();
+});
+
+
+
+
 
 
 
