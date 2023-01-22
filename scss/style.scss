@@ -25,7 +25,9 @@ padding: 26px 150px;
 
 .icons{
 display: flex;
-gap: 20px
+flex-direction: row;
+align-items: flex-end;
+gap: 58px
 
 
 
@@ -50,9 +52,30 @@ color: #FFFFFF;
 flex: none;
 order: 0;
 flex-grow: 0;
+li{
+   cursor: pointer;
+   transition: 0.3s ease;
+   -webkit-transition: 0.3s ease;
+   -moz-transition: 0.3s ease;
+   -ms-transition: 0.3s ease;
+   -o-transition: 0.3s ease;
+}
+li:hover{
+    font-size: 22px;
+}
 }
 
-
+.width{
+    width: 668px;
+    height: 392.06px;
+    position: absolute;
+    left: 150px;
+}
+   }
+   .texts{
+    position: absolute;
+    width: 668px;
+height: 392.06px;
    }
 
 }

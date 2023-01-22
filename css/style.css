@@ -1,3 +1,9 @@
+.container {
+  max-width: 1620px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +31,9 @@ body {
 }
 .landing_page header .icons {
   display: flex;
-  gap: 20px;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 58px;
 }
 .landing_page header ul {
   list-style-type: none;
@@ -42,4 +50,26 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+.landing_page header ul li {
+  cursor: pointer;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+.landing_page header ul li:hover {
+  font-size: 22px;
+}
+.landing_page header .width {
+  width: 668px;
+  height: 392.06px;
+  position: absolute;
+  left: 150px;
+}
+.landing_page .texts {
+  position: absolute;
+  width: 668px;
+  height: 392.06px;
 }/*# sourceMappingURL=style.css.map */
