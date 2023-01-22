@@ -196,6 +196,7 @@ body {
   font-size: 20px;
   line-height: 23px;
   color: #6E757E;
+  /* Inside auto layout */
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -207,6 +208,7 @@ body {
   font-size: 20px;
   line-height: 23px;
   color: #6E757E;
+  /* Inside auto layout */
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -218,6 +220,7 @@ body {
   font-size: 20px;
   line-height: 23px;
   color: #6E757E;
+  /* Inside auto layout */
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -309,4 +312,169 @@ body {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 10px;
+}
+.products {
+  margin-top: 60px;
+}
+.products .products__heading {
+  margin-bottom: 60px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+  color: #07484A;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-align: center;
+}
+.products .armchairs_wr {
+  display: grid;
+  grid-template-columns: repeat(8, 400px);
+  gap: 30px;
+  overflow-x: hidden;
+}
+.products .armchairs_wr .armchairs_card {
+  transition: all 0.3s;
+}
+.products .armchairs_wr .armchairs_card img {
+  margin: auto;
+}
+.products .armchairs_wr .armchairs_card .armchair_heading {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #70908B;
+  margin-bottom: 15px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.products .armchairs_wr .armchairs_card .armchair_style {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #70908B;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.products .armchairs_wr .armchairs_card .armchair__price {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #70908B;
+  margin-top: 15px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.products .armchairs_wr .armchairs_card:nth-child(1) {
+  background-color: #CAF3E5;
+  border-radius: 8px;
+  padding: 40px;
+}
+.products .armchairs_wr .armchairs_card:nth-child(1) img {
+  margin-bottom: 25px;
+}
+.products .armchairs_wr .armchairs_card:nth-child(2) {
+  background: #E0EFF6;
+  border-radius: 16px;
+  padding: 40px;
+}
+.products .armchairs_wr .armchairs_card:nth-child(3) {
+  background: #EEEBFF;
+  border-radius: 16px;
+  padding: 40px;
+}
+.products .armchairs_wr .armchairs_card:nth-child(4) {
+  background: #FFF4E7;
+  border-radius: 16px;
+  padding: 40px;
+}
+.products .armchairs_wr .armchairs_card:nth-child(5) {
+  background: #EEEBFF;
+  border-radius: 16px;
+  padding: 40px;
+}
+.products .armchairs_wr .armchairs_card:nth-child(6) {
+  background: #FFF4E7;
+  border-radius: 16px;
+  padding: 40px;
+}
+.products .armchairs_wr .armchairs_card:nth-child(7) {
+  background: #EEEBFF;
+  border-radius: 16px;
+  padding: 40px;
+}
+.products .armchairs_wr .armchairs_card:nth-child(8) {
+  background: #FFF4E7;
+  border-radius: 16px;
+  padding: 40px;
+}
+.products .pagination_wr {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  margin-top: 20px;
+}
+.products .pagination_wr #slide-arrow-prev {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 4px;
+  background: #E0EFF6;
+  border-radius: 100px;
+  border: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.products .pagination_wr #slide-arrow-next {
+  margin-right: 30px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 4px;
+  background: #E0EFF6;
+  border-radius: 100px;
+  border: none;
+}
+.products .explore-all {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 20px;
+  gap: 18px;
+  background: #70908B;
+  border-radius: 10px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  width: 265px;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.products .explore-all img {
+  filter: invert(6);
 }/*# sourceMappingURL=style.css.map */
