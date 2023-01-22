@@ -1,5 +1,6 @@
 
 
+
 const slides = document.querySelectorAll(".armchairs_card");
 let idx = 0;
 
@@ -63,14 +64,6 @@ function topFunction() {
 $(".scrolTop").addEventListener("click", () => {
   topFunction();
 });
-
-
-
-
-
-
-
-
 
 
 
