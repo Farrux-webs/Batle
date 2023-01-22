@@ -1,4 +1,5 @@
 @import "container";
+@import "fonts";
 @import "general";
 
 body{
@@ -73,9 +74,61 @@ li:hover{
 }
    }
    .texts{
-    position: absolute;
-    width: 668px;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 54px;
+
+position: absolute;
+width: 668px;
 height: 392.06px;
+left: 150px;
+top: 245px;
+
+h1{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 85px;
+
+color: #07484A;
+}
+p{
+    font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+
+color: #07484A;
+
+}
+button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px;
+gap: 4px;
+border: none;
+width: 230px;
+height: 80px;
+
+background: #70908B;
+border-radius: 10px;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #FDFBF8;
+}
    }
 
+   .active{
+    
+   }
 }
